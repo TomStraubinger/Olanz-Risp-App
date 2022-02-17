@@ -30,14 +30,14 @@ Navigate to folder and open either the server.R file or UI.r file in RStudio. If
 
 Using the application
 ----------------------
-##Initial Dosing Tab
+## Initial Dosing Tab
  
 You can either simulate for a specific dose, target a specific trough concentration, or target a specific receptor occupancy at the steady state trough. Under the “Parameters” tab, a recommended dose amount will be generated to achieve the target. 
 Select check boxes accordingly, based on whether or not the patient is a smoker, male, and/or African.
 On the bottom, when the CATIE study checkbox is selected, it will show you results from the CATIE study and how well the model predicted each individual’s concentrations. In the final app, instead of CATIE study subjects, this feature will be able to display concentrations from patients, if plasma levels are measured.
 
 
-##Adaptive Dosing Tab
+## Adaptive Dosing Tab
 
 On the navigation bar at the top of the app, there is a tab labelled “Adaptive Dosing”. Click it to navigate to the adaptive dosing page.
 In the initial dosing page, drug clearance is predicted based on what the mean clearance would be in patients with certain characteristics (sex, race, smoking status). However, not all subjects with the same characteristics will have the exact same drug clearance. Thus, the adaptive dosing feature allows you to enter in a blood draw time and measured concentration after the first dose was given, and an updated prediction for clearance will be calculated. This updated clearance is patient specific.
