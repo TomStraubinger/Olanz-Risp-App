@@ -1,8 +1,10 @@
 # Olanz-Risp-App
 R Shiny App for simulation of Olanzapine and Risperidone dosing
+================================================================
 
 
-Installation Instructions:
+Installation Instructions
+-------------------------
 The application was created using the R package, Shiny. Shiny gives one the ability to utilize the computing power of the statistical language, R Programming, in a highly flexible, interactive web application.
 The population pharmacokinetic model used for the application is based on the published model of Bigos et. al. It is a one compartment, population pharmacokinetic model. Sex, race, and smoking status were identified as covariates on drug clearance, and thus were included in the application. 
 
