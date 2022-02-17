@@ -6,6 +6,7 @@ Installation Instructions:
 The application was created using the R package, Shiny. Shiny gives one the ability to utilize the computing power of the statistical language, R Programming, in a highly flexible, interactive web application.
 The population pharmacokinetic model used for the application is based on the published model of Bigos et. al. It is a one compartment, population pharmacokinetic model. Sex, race, and smoking status were identified as covariates on drug clearance, and thus were included in the application. 
 
+
 Step 1: Download and Install R Programming and RStudio.
 
 R Programming Link: https://cran.rstudio.com/
@@ -17,17 +18,11 @@ Open RStudio and copy and paste the following in the console and run:
 install.packages(c("Shiny", "deSolve", "plyr", "reshape2", "grid", "dplyr", "magrittr", "tidyr", "LambertW", "DT")) 
 
 
+Step 3: Unzip folder and open server.R or UI.r file in RStudio.
 
-
-Step 3: Unzip folder and open server.R or UI.r file in RStudio. 
 Right click on zipped folder and click “Extract all” and choose destination.
-Navigate to folder and open either the server.R file or UI.r file in RStudio. If RStudio is the default program to open R scripts just double click on file. If R studio is not the default program, right click the file and use the “Open with” option.
-Step 4: Change file path to CATIE study data:
- 
-In the server.R file, change the highlighted file path above to the location of the file (wherever you unzip the folder.). Make sure all slashes are forward slashes. Do the same in the UI.r file. 
-Step 5: Run Application
-Once the script is open, in the top right hand corner of the script, click the green arrow that reads “Run App”.
 
+Navigate to folder and open either the server.R file or UI.r file in RStudio. If RStudio is the default program to open R scripts just double click on file. If R studio is not the default program, right click the file and use the “Open with” option.
 
 Using the application
 Initial Dosing Tab:
