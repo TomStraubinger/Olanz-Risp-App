@@ -7,7 +7,9 @@ The application was created using the R package, Shiny. Shiny gives one the abil
 The population pharmacokinetic model used for the application is based on the published model of Bigos et. al. It is a one compartment, population pharmacokinetic model. Sex, race, and smoking status were identified as covariates on drug clearance, and thus were included in the application. 
 
 Step 1: Download and Install R Programming and RStudio.
+
 R Programming Link: https://cran.rstudio.com/
+
 Rstudio link: https://www.rstudio.com/products/rstudio/download/
 
 Step 2: Install All Required Packages 
