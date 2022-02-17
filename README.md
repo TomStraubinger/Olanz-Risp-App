@@ -19,6 +19,7 @@ Rstudio link: https://www.rstudio.com/products/rstudio/download/
 ### Step 2: Install All Required Packages 
 
 Open RStudio and copy and paste the following in the console and run:
+
 install.packages(c("Shiny", "deSolve", "plyr", "reshape2", "grid", "dplyr", "magrittr", "tidyr", "LambertW", "DT")) 
 
 
